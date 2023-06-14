@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node14",
+  "compilerOptions": {
+    "outDir": "./dist/lib",
+    "inlineSourceMap": true,
+    "allowJs": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["cdk.out","build","node_modules", "dist"]
+}

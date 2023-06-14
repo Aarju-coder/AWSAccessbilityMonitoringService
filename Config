@@ -1,0 +1,18 @@
+package.AWSAccessibilityMonitoringServiceCDK = {
+    interfaces = (1.0);
+
+    build-system = cdk-build;
+    build-tools = {
+        1.0 = {
+            NodeJS = default;
+            CDKBuild = 4.x;
+            NpmPrettyMuch = 1.1;
+        };
+    };
+
+    dependencies = {
+        1.0 = {
+            AWSAccessibilityMonitoringService = 1.0;
+        };
+    };
+};
